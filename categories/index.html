@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,17 +28,17 @@
 
 
 
-<meta property="og:url" content="https://orbiont.com/categories/">
+<meta property="og:url" content="http://localhost:1313/categories/">
   <meta property="og:site_name" content="Orbiont">
   <meta property="og:title" content="Categories">
-  <meta property="og:description" content="360° Innovation. Beyond Just Technology.">
+  <meta property="og:description" content="Built for Product. From Strategy to Products.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
-  <meta name="twitter:description" content="360° Innovation. Beyond Just Technology.">
+  <meta name="twitter:description" content="Built for Product. From Strategy to Products.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -68,7 +68,7 @@
     }
     body {
         font-size: 1rem;
-        font-weight: 400;
+        font-weight: 100;
         line-height: 1.5;
         text-align: left;
     }
@@ -140,30 +140,6 @@ Categories | Orbiont
 
 
 
-<script>
-    var prevScrollPos = window.pageYOffset;
-    window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  false ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
-        } else {
-            resetHeaderStyle = true;
-        }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;
-    });
-</script>
-
-
 
 <header id="profileHeader">
     <nav class="pt-3 navbar navbar-expand-lg ">
@@ -194,24 +170,11 @@ Categories | Orbiont
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#about" aria-label="about">
-                            about
-                        </a>
-                    </li>
-                    
 
                     
 
                     
 
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#projects"
-                            aria-label="projects">
-                            solutions
-                        </a>
-                    </li>
                     
 
                     
@@ -275,14 +238,14 @@ Categories | Orbiont
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://orbiont.com/" title="Orbiont">
+                    <a href="http://localhost:1313/" title="Orbiont">
                         
                         <img alt="Footer logo" src="images/logo/orbiont_avatar_light.png"
                             height="40px" width="40px">
                     </a>
                 </div>
             
-            &copy; 2025  All Rights Reserved
+            &copy; 2026  All Rights Reserved
             
         
         </div>
@@ -303,8 +266,6 @@ Categories | Orbiont
 
 
 
-
-<script src="/js/contact.js"></script>
 
 
 
